@@ -422,7 +422,7 @@
       fallback('script error');
     };
 
-    script.src = `https://docs.google.com/spreadsheets/d/${GOOGLE_SHEETS_FILE_ID}/gviz/tq?tqx=out:json&sheet=${encodeURIComponent('工作表1')}&callback=${cbName}`;
+    script.src = `https://docs.google.com/spreadsheets/d/${GOOGLE_SHEETS_FILE_ID}/gviz/tq?gid=480346258&callback=${cbName}`;
     document.head.appendChild(script);
   }
 
